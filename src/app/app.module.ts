@@ -9,6 +9,7 @@ import { BallComponent } from './target-shooting/ball/ball.component';
 import { BullsEyeComponent } from './target-shooting/bulls-eye/bulls-eye.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WallComponent } from './target-shooting/wall/wall.component';
+import { ShootingRoomComponent } from './target-shooting/shooting-room/shooting-room.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,14 @@ import { WallComponent } from './target-shooting/wall/wall.component';
     CardComponent,
     BallComponent,
     BullsEyeComponent,
-    WallComponent
+    WallComponent,
+    ShootingRoomComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: 'dashboard', component: DashboardComponent },
-      { path: 'target', component: WallComponent },
+      { path: 'target', component: ShootingRoomComponent },
     ])
   ],
   providers: [],
