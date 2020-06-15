@@ -1,0 +1,15 @@
+.bullseye {
+  height: 5em;
+  width: 5em;
+  padding: 2.5em;
+  border: solid 2.5em #c00;
+  border-radius: 50%;
+  background-color: #c00;
+  background-clip: content-box;
+  transition: border-color 200ms ease-in, background-color 200ms ease-in;
+}
+
+.bullseye:hover {
+  border-color: #666;
+  background-color: #666;
+}
