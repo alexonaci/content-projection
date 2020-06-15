@@ -1,2 +1,6 @@
-<div class="container"></div>
+<div class="container">
+  <app-bulls-eye>
+    <ng-content select="[content-type=ball]" ngProjectAs="[content-type=minge]"></ng-content>
+  </app-bulls-eye>
+</div>
 

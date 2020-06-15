@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
 import { BallComponent } from './target-shooting/ball/ball.component';
 import { BullsEyeComponent } from './target-shooting/bulls-eye/bulls-eye.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { WallComponent } from './target-shooting/wall/wall.component';
 import { ShootingRoomComponent } from './target-shooting/shooting-room/shooting-room.component';
+import { CardComponent } from './dashboard/components/card/card.component';
+import { DashboardComponent } from './dashboard/pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { ShootingRoomComponent } from './target-shooting/shooting-room/shooting-
     BallComponent,
     BullsEyeComponent,
     WallComponent,
-    ShootingRoomComponent
+    ShootingRoomComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

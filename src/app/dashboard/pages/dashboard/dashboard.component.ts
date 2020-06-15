@@ -9,6 +9,8 @@ export class DashboardComponent implements OnInit {
 
   constructor() { }
 
+  public cities = ['Cluj-Napoca', 'Bucuresti', 'Timisoara'];
+
   ngOnInit(): void {
   }
 
